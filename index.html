@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Community Church</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#service-times">Service Times</a></li>
+            <li><a href="#pastors">Pastors</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#prayer-requests">Prayer Requests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <!-- Left Sidebar: Upcoming Events -->
+        <aside class="sidebar left-sidebar">
+            <h3>Upcoming Events</h3>
+            <ul id="events-list">
+                <li>Community Worship - April 14</li>
+                <li>Charity Drive - April 21</li>
+                <li>Bible Study - Every Wednesday</li>
+            </ul>
+        </aside>
+        
+        <!-- Main Content -->
+        <main>
+            <header>
+                <h1>Welcome to Grace Community Church</h1>
+                <p>A place of worship, community, and growth.</p>
+            </header>
+            
+            <section id="mission">
+                <h2>Our Mission</h2>
+                <p>To spread faith, love, and the teachings of Jesus Christ to all who seek Him.</p>
+            </section>
+            
+            <section id="service-times">
+                <h2>Service Times</h2>
+                <p>Sunday Worship: 9:00 AM & 11:00 AM</p>
+                <p>Wednesday Bible Study: 7:00 PM</p>
+            </section>
+            
+            <section id="pastors">
+                <h2>Meet Our Pastors</h2>
+                <div class="pastors-container">
+                    <div class="pastor-card">
+                        <img src="./assets/pastor.jpg" alt="Pastor John Doe">
+                        <p>Pastor John Doe - Lead Pastor</p>
+                    </div>
+                    <div class="pastor-card">
+                        <img src="./assets/worship.jpg" alt="Pastor Jane Smith">
+                        <p>Pastor Jane Smith - Worship Leader</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonials">
+                <h2>What Our Members Say</h2>
+                <p id="testimonial-text">"This church has changed my life! The community is amazing."</p>
+                <p id="testimonial-name">- Sarah Johnson</p>
+            </section>
+
+            <section id="prayer-requests">
+                <h2>Prayer Requests</h2>
+                <form id="prayer-form">
+                    <input type="text" id="prayer-input" placeholder="Enter your prayer request..." required>
+                    <button type="submit">Submit</button>
+                </form>
+                <ul id="prayer-list"></ul>
+                <div id="prayer-popup" class="hidden">Prayer request sent to Jesus</div>
+            </section>
+            
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Location: 123 Church Street, El Paso, TX</p>
+                <p>Email: info@gracechurch.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </section>
+        </main>
+        
+        <!-- Right Sidebar: Daily Verse -->
+        <aside class="sidebar right-sidebar">
+            <h3>Daily Verse</h3>
+            <p id="daily-verse">"Trust in the Lord with all your heart..." - Proverbs 3:5</p>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Grace Community Church. All rights reserved.</p>
+    </footer>
+</body>
+</html>
