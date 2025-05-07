@@ -173,3 +173,111 @@ footer {
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
 }
+
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sidebar {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    footer {
+        font-size: 1.6rem;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sidebar {
+        width: 80%;
+    }
+
+    section {
+        padding: 30px;
+        margin: 30px;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+
+    button {
+        width: 70%;
+    }
+
+    footer {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .container {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .sidebar {
+        width: 300px;
+    }
+
+    section {
+        padding: 50px;
+        margin: 50px;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    img {
+        width: 170px;
+        height: 170px;
+    }
+
+    button {
+        width: 200px;
+    }
+
+    footer {
+        font-size: 2rem;
+    }
+}
